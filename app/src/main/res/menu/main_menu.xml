@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addBtn"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Add Journal"
+        android:iconTint="#fdf0d5"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/signOut"
+        android:title="Sign Out"
+        app:showAsAction="never"/>
+
+
+</menu>
